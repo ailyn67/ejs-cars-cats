@@ -6,3 +6,6 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rebeccapurple;
 }
+form {
+  text-align: center;
+}

@@ -24,4 +24,8 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/cars/new", (req, res) => {
+  res.render("new");
+});
+
 app.listen( port, () => console.log(`Listening on port: ${port}`) );
